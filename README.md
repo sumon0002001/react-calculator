@@ -28,7 +28,12 @@ To get a local copy up and running follow these simple steps:
 - To see locally run 'npm run start'.
 
 
+<!-- CONTACT -->
+👤 **Mir Rawshan Ali**
 
+- GitHub: [@sumon0002009](https://github.com/sumon0002001)
+- Twitter: [@sumon0002009](https://twitter.com/Sumon0002009)
+- LinkedIn: [Mir Rawshan Ali](https://www.linkedin.com/in/mir-rawshan-ali-27b6a5198/)
 
 
 
