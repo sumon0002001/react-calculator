@@ -10,8 +10,7 @@ Math Magicians Calculator is the first project from the React and Redux module f
 - Bootstrap
 - JavaScript
 - React
-- Jest
-- React Testing Library
+
 
 ##  :red_circle: Live Demo:
 
