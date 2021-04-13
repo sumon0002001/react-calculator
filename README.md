@@ -4,7 +4,7 @@ Math Magicians Calculator is the first project from the React and Redux module f
 
 
 
-##  :hammer: Built with:
+##  Built with:
 
 - Html
 - Bootstrap
