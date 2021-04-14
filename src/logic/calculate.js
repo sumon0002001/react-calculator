@@ -10,12 +10,12 @@ const calculate = (calculator, buttonName) => {
   }
 
   if (
-      buttonName === '+'
-      || buttonName === '-'
-      || buttonName === '*'
-      || buttonName === '÷'
+    buttonName === '+'
+    || buttonName === '-'
+    || buttonName === '*'
+    || buttonName === '÷'
   ) {
-      total = Operate(total, next, operation)
+    total = Operate(total, next, operation);
   }
 
   return calculator;
