@@ -1,6 +1,6 @@
 import React from 'react';
 import Display from './Display';
-import ButtonPanel from './ButtonPanel'
+import ButtonPanel from './ButtonPanel';
 
 function App() {
   return (
@@ -10,10 +10,9 @@ function App() {
           This is the React-Calculator
         </p>
       </header>
-      <Display/>
-      <ButtonPanel/>
+      <Display />
+      <ButtonPanel />
     </div>
-    
   );
 }
 
