@@ -10,7 +10,10 @@ function App() {
           This is the React-Calculator
         </p>
       </header>
+      <Display/>
+      <ButtonPanel/>
     </div>
+    
   );
 }
 
