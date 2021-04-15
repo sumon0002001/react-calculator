@@ -45,7 +45,7 @@ class App extends React.Component {
       <>
         <main className="main">
           <Display
-            result={next || total || '0'}
+            result={next || total }
             details={this.handleDetails(total, next, operation)}
           />
           <ButtonPanel clickHandler={this.handleClick} />
