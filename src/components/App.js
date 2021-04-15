@@ -13,7 +13,16 @@ class App extends React.Component {
       operation: null,
   };
 }
+
+ handleClick = buttonName => {
+
+}
+
+handleDetails = (total, next, operation) => {
+
+}
   render() {
+    const {total, next, operation} = this.state;
     return (
       <>
         <header className="App-header">
@@ -23,7 +32,7 @@ class App extends React.Component {
         </header>
         <Display 
         result = {next || total || '0'}
-        details={}
+        details={this.handleDetails(total, next, operation)}
         />
         <ButtonPanel />
       </>
