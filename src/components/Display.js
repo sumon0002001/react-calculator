@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Display = props => {
+const Display = (props) => {
   const { result, details } = props;
   return (
     <section className="display">

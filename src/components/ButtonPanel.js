@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 class ButtonPanel extends React.Component {
-  handleClick = buttonName => {
+  handleClick = (buttonName) => {
     const { clickHandler } = this.props;
     return clickHandler(buttonName);
   }

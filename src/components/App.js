@@ -13,7 +13,7 @@ class App extends React.Component {
     };
   }
 
-  handleClick = buttonName => {
+  handleClick = (buttonName) => {
     const stateObj = this.state;
     const output = calculate(stateObj, buttonName);
     this.setState({
@@ -43,7 +43,7 @@ class App extends React.Component {
       <>
         <main className="main">
           <Display
-            result={next || total }
+            result={next || total}
             details={this.handleDetails(total, next, operation)}
           />
           <ButtonPanel clickHandler={this.handleClick} />
