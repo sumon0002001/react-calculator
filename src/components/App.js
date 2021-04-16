@@ -11,8 +11,6 @@ class App extends React.Component {
       next: null,
       operation: null,
     };
-    this.handleClick = this.handleClick.bind(this);
-    this.handleDetails = this.handleDetails.bind(this);
   }
 
   handleClick = buttonName => {

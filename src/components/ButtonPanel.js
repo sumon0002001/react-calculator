@@ -3,12 +3,6 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 class ButtonPanel extends React.Component {
-  constructor(props) {
-    super(props);
-    this.renderButton = this.renderButton.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
   handleClick = buttonName => {
     const { clickHandler } = this.props;
     return clickHandler(buttonName);
