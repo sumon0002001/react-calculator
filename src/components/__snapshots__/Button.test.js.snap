@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Button page 1`] = `
+<button
+  className="button"
+  type="button"
+>
+  
+</button>
+`;
+
+exports[`Renders the Home page 1`] = `
+<button
+  className="button"
+  type="button"
+>
+  
+</button>
+`;
+
+exports[`return content from Button matches snapshot 1`] = `
+<div>
+  <button
+    class="button"
+    type="button"
+  />
+</div>
+`;
