@@ -1,27 +1,26 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import App from "./App";
-import Home from "./Home";
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import NavBar from './Navbar';
+import Home from './Home';
+import App from './App';
+import Quete from './Quete';
 
-import NavBar from  "./Navbar";
-import Quete from "./Quete";
-
-const Routes = () => {
+function Routes() {
   return (
     <BrowserRouter>
-     <NavBar/>
+      <NavBar/>
       <Switch>
-      <Route path="/" component={Home}  exact/>
+        <Route path="/" component={Home}  exact/>
         <Route path="/calculator" component={App} />
         <Route path="/quete" component={Quete} />
       </Switch>
       <footer>
-  <div>
-      <p>
-          Developed by Mir Rawshan Ali
-      </p>
-  </div>
-    </footer>
+        <div>
+          <p>
+            Developed by Mir Rawshan Ali
+          </p>
+        </div>
+      </footer>
     </BrowserRouter>
   );
 };
