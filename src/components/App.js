@@ -2,6 +2,7 @@ import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
+import Home from './Home';
 
 class App extends React.Component {
   constructor(props) {
@@ -41,7 +42,9 @@ class App extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <>
+       <Home/>
         <main className="main">
+         
           <Display
             result={next || total}
             details={this.handleDetails(total, next, operation)}
