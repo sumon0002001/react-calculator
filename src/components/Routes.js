@@ -8,9 +8,9 @@ import Quete from './Quete';
 function Routes() {
   return (
     <BrowserRouter>
-      <NavBar/>
+      <NavBar />
       <Switch>
-        <Route path="/" component={Home}  exact/>
+        <Route path="/" component={Home} exact />
         <Route path="/calculator" component={App} />
         <Route path="/quete" component={Quete} />
       </Switch>
@@ -23,6 +23,6 @@ function Routes() {
       </footer>
     </BrowserRouter>
   );
-};
+}
 
 export default Routes;
