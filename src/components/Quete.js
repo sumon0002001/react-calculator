@@ -1,0 +1,17 @@
+import React from 'react';
+
+const Quete = () => {
+    return (
+        <main>
+        <div >
+          <p>
+            Mathematics is not about numbers, equations, computations, or algorithms:
+            it is about understanding. –William Paul Thurston
+          </p>
+        </div>
+      </main>
+
+    )
+}
+
+export default Quete;
