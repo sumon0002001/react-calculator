@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
 const NavBar = () => {
-    return(
-        <header>
+  return (
+    <header>
         <h1>Math Magician</h1>
         <nav>
             <ul>
