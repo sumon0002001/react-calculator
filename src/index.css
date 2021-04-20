@@ -15,7 +15,6 @@ div.quete {
   margin: 0 auto;
 }
 
-
 .main,
 .display,
 .group {
@@ -82,9 +81,8 @@ div.quete {
   }
 }
 
-.nav-link
- {
-  color:white;
+.nav-link {
+  color: white;
   font-weight: bold;
 }
 
@@ -93,6 +91,7 @@ div.quete {
   text-decoration: none;
   color: green;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -103,11 +102,12 @@ header {
 header h1 {
   color: white;
 }
+
 q {
- 
   font-weight: bold;
   font-size: 20px;
 }
+
 ul {
   display: flex;
   justify-content: space-between;
@@ -117,6 +117,7 @@ ul {
 li {
   padding-left: 30px;
 }
+
 footer {
   text-align: center;
   font-weight: bold;
