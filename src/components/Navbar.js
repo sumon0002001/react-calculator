@@ -18,5 +18,5 @@ const NavBar = () => (
       </ul>
     </nav>
   </header>
-  );
+);
 export default NavBar;
