@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Navbar page 1`] = `
+<div>
+  <header>
+    <h1>
+      Math Magician
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="nav-link"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="/calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="/quete"
+          >
+            Quete
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`return navbar match sanpshot 1`] = `
+<div>
+  <header>
+    <h1>
+      Math Magician
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="nav-link"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="/calculator"
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            class="nav-link"
+            href="/quete"
+          >
+            Quete
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+`;
