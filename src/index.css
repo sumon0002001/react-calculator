@@ -10,6 +10,12 @@ body {
   background-color: white;
 }
 
+div.quete {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
 .main,
 .display,
 .group {
@@ -74,4 +80,44 @@ body {
   .display {
     font-size: 45px;
   }
+}
+
+.nav-link
+ {
+  color:white;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.footer-link:hover {
+  text-decoration: none;
+  color: green;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+}
+
+header h1 {
+  color: white;
+}
+q {
+ 
+  font-weight: bold;
+  font-size: 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  padding-left: 30px;
+}
+footer {
+  text-align: center;
+  font-weight: bold;
 }

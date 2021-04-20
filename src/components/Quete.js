@@ -4,10 +4,10 @@ const Quete = () => {
     return (
         <main>
         <div >
-          <p>
+          <q>
             Mathematics is not about numbers, equations, computations, or algorithms:
             it is about understanding. –William Paul Thurston
-          </p>
+          </q>
         </div>
       </main>
 
