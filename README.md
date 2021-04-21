@@ -24,7 +24,7 @@ Math Magicians Calculator is the first project from the React and Redux module f
 To get a local copy up and running follow these simple steps:
 
 - Go to the main page.
-- Clone it using git command "git clone git@github.com:ricardomonte/math-magicians-calculator.git".
+- Clone it using git command "https://github.com/sumon0002001/react-calculator.git".
 - Open in terminal the folder just cloned.
 - run in terminal 'npm install'.
 - To see locally run 'npm run start'.
