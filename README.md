@@ -11,6 +11,9 @@ Math Magicians Calculator is the first project from the React and Redux module f
 - JavaScript
 - React
 
+## App Screenshot
+![screenshot](./screen.png)
+
 
 ##  :red_circle: Live Demo:
 
