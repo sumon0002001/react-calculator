@@ -1,30 +1,44 @@
 import Big from 'big.js';
 
-const Operate = (numberOne, numberTwo, operation) => {
-  let result = null;
-  const n1 = numberOne ? Big(numberOne) : 0;
-  const n2 = numberOne ? Big(numberTwo) : 0;
+const operate = (numberOne, numberTwo, operation) => {
+  let result = {};
+  let total = 0;
   switch (operation) {
-    case '-':
-      result = n1.minus(n2);
-      break;
-    case '+':
-      result = n1.plus(n2);
-      break;
-    case 'X':
-      result = n1.times(n2);
-      break;
     case '÷':
       if (numberTwo === '0') {
-        result = "Can't divide by 0";
-        break;
+        result = { total: 'undefined', next: null, operation };
+      } else {
+        total = Big(numberOne).div(numberTwo).toString();
+        result = { total: null, next: total, operation };
       }
-      result = n1.div(n2);
       break;
+    case '-':
+      total = Big(numberOne).minus(numberTwo).toString();
+      result = { total: null, next: total, operation };
+      break;
+    case '+':
+      total = Big(numberOne).plus(numberTwo).toString();
+      result = { total: null, next: total, operation };
+      break;
+    case 'X':
+      total = Big(numberOne).times(numberTwo).toString();
+      result = { total: null, next: total, operation };
+      break;
+    case '%':
+      if (numberOne === null) {
+        result = Big(numberTwo).div(100).toString();
+        return { total: result, next: null, operation };
+      }
+      if (numberOne !== null && numberTwo == null) {
+        result = Big(numberOne).div(100).toString();
+        return { total: result, next: null, operation };
+      }
+      result = Big(numberTwo).div(100).toString();
+      return { total: numberOne, next: result, operation };
     default:
-      break;
+      result = { total: Big(numberOne).toString(), next: numberTwo, operation };
   }
-  return result.toString();
+  return result;
 };
 
-export default Operate;
+export default operate;

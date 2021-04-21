@@ -41,7 +41,9 @@ class App extends React.Component {
     const { total, next, operation } = this.state;
     return (
       <>
+        <h1>Let&apos;s do some Math!</h1>
         <main className="main">
+
           <Display
             result={next || total}
             details={this.handleDetails(total, next, operation)}
